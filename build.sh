@@ -1,6 +1,6 @@
 #!/usr/bash
 mvn clean package
-docker docker build -t tool/swagger2word:1.0.03-release .
-kubectl create -n tool configmap swagger2word-filebeat-config --from-file=config
-kubectl apply -f swagger2word.yml
+docker build -t tool/QRCode:1.0.00-release .
+kubectl create -n tool configmap QRCode-filebeat-config --from-file=config
+kubectl apply -f QRCode.yml
 kubectl get pod -n tool -o wide

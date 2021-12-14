@@ -11,7 +11,7 @@ filebeat.inputs:
       - add_fields:
           fields:
             log_type: frame_log
-            service: swagger2word
+            service: QRCode
     enabled: true
     paths:
       - /app/logs/*.log
