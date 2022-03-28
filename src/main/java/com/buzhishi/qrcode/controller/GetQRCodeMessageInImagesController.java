@@ -1,13 +1,11 @@
-package top.zzx1996.qrcode.controller;
+package com.buzhishi.qrcode.controller;
 
 import io.swagger.annotations.*;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import top.zzx1996.qrcode.entity.GetMessageRequest;
-import top.zzx1996.qrcode.util.QRCodeUtil;
+import com.buzhishi.qrcode.util.QRCodeUtil;
 
 
 @RestController

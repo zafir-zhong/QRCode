@@ -1,4 +1,4 @@
-package top.zzx1996.qrcode.config;
+package com.buzhishi.qrcode.config;
 
 import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 import org.apache.http.conn.ssl.TrustStrategy;

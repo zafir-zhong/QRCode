@@ -1,14 +1,13 @@
-package top.zzx1996.qrcode.controller;
+package com.buzhishi.qrcode.controller;
 
+import com.buzhishi.qrcode.entity.QRCodeFormatEnums;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiResponse;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import top.zzx1996.qrcode.entity.QRCodeFormatEnums;
-import top.zzx1996.qrcode.util.QRCodeUtil;
+import com.buzhishi.qrcode.util.QRCodeUtil;
 
 import javax.servlet.http.HttpServletResponse;
 

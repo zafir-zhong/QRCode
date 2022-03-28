@@ -1,4 +1,4 @@
-package top.zzx1996.qrcode.controller;
+package com.buzhishi.qrcode.controller;
 
 
 import io.swagger.annotations.ApiOperation;

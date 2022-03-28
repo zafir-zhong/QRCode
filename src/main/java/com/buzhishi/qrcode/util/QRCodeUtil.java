@@ -1,5 +1,6 @@
-package top.zzx1996.qrcode.util;
+package com.buzhishi.qrcode.util;
 
+import com.buzhishi.qrcode.entity.QRCodeFormatEnums;
 import com.google.zxing.*;
 import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
 import com.google.zxing.client.j2se.MatrixToImageWriter;
@@ -10,13 +11,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.binary.Base64;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
-import top.zzx1996.qrcode.entity.QRCodeFormatEnums;
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 import java.io.*;
-import java.net.URLDecoder;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
 import java.util.UUID;

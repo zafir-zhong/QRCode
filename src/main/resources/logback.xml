@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <property name="CUSTOM_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%t] [%logger{36}] (%L\) %M - %msg%xEx%n"/>
-<!--    <property name="log.path" value="/data/logs/oppo-itsm"/>-->
     <property name="log.path" value="logs"/>
-    <!--<include resource="org/springframework/boot/logging/logback/base.xml"/>-->
     <appender name="ROLLING-FILE-INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${log.path}/info.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">

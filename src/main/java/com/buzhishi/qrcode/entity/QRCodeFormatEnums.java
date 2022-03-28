@@ -1,4 +1,4 @@
-package top.zzx1996.qrcode.entity;
+package com.buzhishi.qrcode.entity;
 
 import org.springframework.util.StringUtils;
 
